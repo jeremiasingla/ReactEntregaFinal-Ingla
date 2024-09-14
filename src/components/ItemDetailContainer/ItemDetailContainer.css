@@ -1,0 +1,196 @@
+.ItemDetailMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/bg.jpg);
+  background-position-y: -70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+.ItemDetailContainerMain {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.ItemDetailContainer {
+  background-color: #1414148d;
+  color: #fff;
+  backdrop-filter: blur(0.25rem);
+  width: 100%;
+  box-shadow: 0 0px 12px #14141480;
+}
+.ItemDetailContainer {
+  padding: 4rem;
+}
+.ItemDetailContainerMain {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: calc(100px + 4rem);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+}
+.ItemDetailContainer {
+  background-color: #1414148d;
+  backdrop-filter: blur(0.25rem);
+  width: 100%;
+  padding: 4rem;
+  box-shadow: 0 0px 12px #14141480;
+}
+.ItemDetailContainer .productoTitle {
+  color: #fff;
+  font-weight: normal;
+  font-size: 0.875rem;
+  text-wrap: pretty;
+  margin: 0.25rem;
+}
+.ItemDetailContainer .productoPrecio {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.CatalogoMainUl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  list-style: none;
+}
+/* Estilos para el contador en el detalle del producto */
+.counterControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.counterControls button {
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.ItemDetailMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/bg.jpg);
+  background-position-y: -70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+.ItemDetailContainerMain {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: calc(100px + 4rem);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+}
+.ItemDetailContainer .productoTitle {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.ItemDetailContainer .productoPrecio {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.ItemDetailContainer h2 {
+  color: #fff;
+}
+.ItemDetailContainer .productoImagen {
+  width: 500px;
+  margin-top: 1rem;
+  min-height: 250px;
+}
+.productDetailsContainer {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  border-top: 0.25px solid #cfcfcf;
+  border-bottom: 0.25px solid #cfcfcf;
+}
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 0.5rem 0;
+  margin-right: 25vw;
+}
+.productDetails .productDetailsTitle {
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+.productDetails .productDetailsInfoContainer {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+}
+.productDetails .productDetailsInfo {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productDetailsInfo span {
+  font-weight: 600;
+}
+.productDetailsDescriptionTitle {
+  font-weight: normal;
+  font-size: 1rem;
+}
+.productDetailsDescriptionDesc {
+  font-size: 0.875rem;
+  color: #cfcfcf;
+}
+.productDetailsDescriptionContainer {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productoColor {
+  color: #cfcfcf;
+  font-weight: 500;
+}
+.productFlex {
+  display: flex;
+  align-items: center;
+}
+.productBuyNow {
+  position: relative;
+  height: 168.75px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productBuyNow h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tAlignCenter {
+  text-align: center;
+}

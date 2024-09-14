@@ -1,0 +1,21 @@
+.Item {
+  margin-bottom: 20px;
+}
+.productoImagen {
+  width: 180px;
+  min-height: 100px;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productoImagen img {
+  width: 70%;
+  height: auto;
+  margin: 0.5rem;
+}
+
+.ItemListContainer .productoImagen {
+  height: 100px;
+}

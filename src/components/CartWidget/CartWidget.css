@@ -1,0 +1,12 @@
+/* Estilos para el CartWidget */
+.shoppingNumberContainer {
+  transform: translateY(-26px) translateX(10px) scale(0.6);
+  background-color: limegreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  filter: drop-shadow(0 3px 12px limegreen);
+}
